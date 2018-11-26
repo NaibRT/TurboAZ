@@ -1,0 +1,12 @@
+C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\bin\Debug\TurboAZ.exe.config
+C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\bin\Debug\TurboAZ.exe
+C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\bin\Debug\TurboAZ.pdb
+C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\obj\Debug\TurboAZ.csprojResolveAssemblyReference.cache
+C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\obj\Debug\TurboAZ.MainForm.resources
+C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\obj\Debug\TurboAZ.Properties.Resources.resources
+C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\obj\Debug\TurboAZ.SignUpForm.resources
+C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\obj\Debug\TurboAZ.csproj.GenerateResource.Cache
+C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\obj\Debug\TurboAZ.csproj.CoreCompileInputs.cache
+C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\obj\Debug\TurboAZ.exe
+C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\obj\Debug\TurboAZ.pdb
+C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\obj\Debug\TurboAZ.SignInForm.resources
