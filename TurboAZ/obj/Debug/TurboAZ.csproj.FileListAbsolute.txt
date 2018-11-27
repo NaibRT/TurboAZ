@@ -10,3 +10,16 @@ C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\obj\Debug\TurboAZ.csproj.CoreCompil
 C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\obj\Debug\TurboAZ.exe
 C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\obj\Debug\TurboAZ.pdb
 C:\Users\naibrt\source\repos\TurboAZ\TurboAZ\obj\Debug\TurboAZ.SignInForm.resources
+C:\Users\naibrt\Desktop\TurboAz\TurboAZ\bin\Debug\TurboAZ.exe.config
+C:\Users\naibrt\Desktop\TurboAz\TurboAZ\bin\Debug\TurboAZ.exe
+C:\Users\naibrt\Desktop\TurboAz\TurboAZ\bin\Debug\TurboAZ.pdb
+C:\Users\naibrt\Desktop\TurboAz\TurboAZ\obj\Debug\TurboAZ.csprojResolveAssemblyReference.cache
+C:\Users\naibrt\Desktop\TurboAz\TurboAZ\obj\Debug\TurboAZ.MainForm.resources
+C:\Users\naibrt\Desktop\TurboAz\TurboAZ\obj\Debug\TurboAZ.Properties.Resources.resources
+C:\Users\naibrt\Desktop\TurboAz\TurboAZ\obj\Debug\TurboAZ.SignInForm.resources
+C:\Users\naibrt\Desktop\TurboAz\TurboAZ\obj\Debug\TurboAZ.SignUpForm.resources
+C:\Users\naibrt\Desktop\TurboAz\TurboAZ\obj\Debug\TurboAZ.UserForm.resources
+C:\Users\naibrt\Desktop\TurboAz\TurboAZ\obj\Debug\TurboAZ.csproj.GenerateResource.Cache
+C:\Users\naibrt\Desktop\TurboAz\TurboAZ\obj\Debug\TurboAZ.csproj.CoreCompileInputs.cache
+C:\Users\naibrt\Desktop\TurboAz\TurboAZ\obj\Debug\TurboAZ.exe
+C:\Users\naibrt\Desktop\TurboAz\TurboAZ\obj\Debug\TurboAZ.pdb

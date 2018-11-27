@@ -21,7 +21,15 @@ namespace TurboAZ
         private void button1_Click(object sender, EventArgs e)
         {
             User newUser = DB.Users.Find(u => u.Email == textBox1.Text && u.Password == textBox2.Text);
-            MessageBox.Show(newUser.Name);
+            if (newUser!=null)
+            {
+                UserForm newUserForm = new UserForm();
+                newUserForm.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("User not Fount. Check your email or password");
+            }
         }
     }
 }

@@ -8,6 +8,10 @@ namespace TurboAZ.Model
 {
     public class Car
     {
+        private static int count = 1;
+
+        public int ID { get; private set; }
+        public int UserID { get;set; }
 
 
         public string City { get; set; }
@@ -17,17 +21,20 @@ namespace TurboAZ.Model
         public string BanType { get; set; }
         public string Color { get; set; }
         public float MotorVolume { get; set; }
-        public int HoursePover { get; set; }
-        public string FlueType { get; set; }
+        public int HorsePover { get; set; }
+        public string FuelType { get; set; }
         public int Mileage { get; set; }
         public string Transmission { get; set; }
-        public string GaerType { get; set; }
+        public string GearType { get; set; }
         public bool New { get; set; }
-        public int Prise { get; set; }
+        public int Price { get; set; }
 
 
-        public Car(string city, string marka, string model, int year, string banType, string color, string moororVolume, int hoursePover, string flueType, int mileage, string transmission, string gaerType, bool @new, int prise)
+        public Car(string city, string marka, string model, string year, string banType, string color, string moororVolume, string hoursePover, string flueType, string mileage, string transmission, string gaerType, string @new, string prise,int id)
         {
+            ID = count;
+
+            UserID = id;
             City = city;
             Marka = marka;
             Model = model;
@@ -35,13 +42,15 @@ namespace TurboAZ.Model
             BanType = banType;
             Color = color;
             MotorVolume =float.Parse( moororVolume);
-            HoursePover = hoursePover;
-            FlueType = flueType;
-            Mileage = mileage;
+            HorsePover =Convert.ToInt32( hoursePover);
+            FuelType = flueType;
+            Mileage = Convert.ToInt32(mileage);
             Transmission = transmission;
-            GaerType = gaerType;
+            GearType = gaerType;
             New = Convert.ToBoolean(@new);
-            Prise = prise;
+            Price = Convert.ToInt32(prise);
+
+            count++;
         }
 
 

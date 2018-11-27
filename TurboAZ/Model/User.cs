@@ -8,7 +8,7 @@ namespace TurboAZ.Model
 {
    public class User
     {
-        private static int count=0;
+        private static int count=1;
 
 
         public int ID { get; set; }

@@ -22,5 +22,11 @@ namespace TurboAZ
             SignUpForm newForm = new SignUpForm();
             newForm.ShowDialog();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            SignInForm newSignInForm = new SignInForm();
+            newSignInForm.ShowDialog();
+        }
     }
 }
