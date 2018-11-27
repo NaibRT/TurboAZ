@@ -70,5 +70,81 @@ namespace TurboAZ
             }
             ModelComboBox.Items.AddRange(modelForMark(MarkaComboBox.SelectedItem.ToString()));
         }
+
+        private void ADDbutton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       private void AddUserProduct()
+        {
+            Car newCar = new Car(CityComboBox.SelectedItem.ToString(), MarkaComboBox.SelectedItem.ToString(), ModelComboBox.SelectedItem.ToString(),
+                dateTimePicker1.Value.ToString(), BanTypeComboBox.SelectedItem.ToString(), ColorComboBox.SelectedItem.ToString(), MotorVolumeComboBox.SelectedItem.ToString(),
+                HoursePowertextBox.Text.ToString(), FlueTypeComboBox.SelectedItem.ToString(), MilagetextBox.Text.ToString(), TransmissionComboBox.SelectedItem.ToString(),
+                GearTypeComboBox.SelectedItem.ToString(), NewComboBox.SelectedItem.ToString(), PrisetextBox.Text.ToString(),
+                );
+        }
+
+        private bool CheckAddProduct()
+        {
+            if (String.IsNullOrEmpty(CityComboBox.SelectedItem.ToString()))
+            {
+                return false;
+            }
+            if (String.IsNullOrEmpty(MarkaComboBox.SelectedItem.ToString()))
+            {
+                return false;
+            }
+            if (String.IsNullOrEmpty(ModelComboBox.SelectedItem.ToString()))
+            {
+                return false;
+            }
+            if (String.IsNullOrEmpty(dateTimePicker1.Value.ToString()))
+            {
+                return false;
+            }
+            if (String.IsNullOrEmpty(BanTypeComboBox.SelectedItem.ToString()))
+            {
+                return false;
+            }
+            if (String.IsNullOrEmpty(ColorComboBox.SelectedItem.ToString()))
+            {
+                return false;
+            }
+            if (String.IsNullOrEmpty(MotorVolumeComboBox.SelectedItem.ToString()))
+            {
+                return false;
+
+            }
+            if (String.IsNullOrEmpty(HoursePowertextBox.Text.ToString()))
+            {
+                return false;
+            }
+            if (String.IsNullOrEmpty(FlueTypeComboBox.SelectedItem.ToString()))
+            {
+                return false;
+            }
+            if (String.IsNullOrEmpty(MilagetextBox.Text.ToString()))
+            {
+                return false;
+            }
+            if (String.IsNullOrEmpty(TransmissionComboBox.SelectedItem.ToString()))
+            {
+                return false;
+            }
+            if (String.IsNullOrEmpty(GearTypeComboBox.SelectedItem.ToString()))
+            {
+                return false;
+            }
+            if (String.IsNullOrEmpty(NewComboBox.SelectedItem.ToString()))
+            {
+                return false;
+            }
+            if (String.IsNullOrEmpty(PrisetextBox.Text.ToString()))
+            {
+                return false;
+            }
+            return true;
+        }
     }
 }

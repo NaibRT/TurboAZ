@@ -58,6 +58,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.UserProductPanel = new System.Windows.Forms.Panel();
             this.UserAddCarPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -105,6 +106,7 @@
             this.ADDbutton.TabIndex = 28;
             this.ADDbutton.Text = "ADD";
             this.ADDbutton.UseVisualStyleBackColor = true;
+            this.ADDbutton.Click += new System.EventHandler(this.ADDbutton_Click);
             // 
             // PrisetextBox
             // 
@@ -341,11 +343,19 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "City";
             // 
+            // UserProductPanel
+            // 
+            this.UserProductPanel.Location = new System.Drawing.Point(392, 12);
+            this.UserProductPanel.Name = "UserProductPanel";
+            this.UserProductPanel.Size = new System.Drawing.Size(988, 619);
+            this.UserProductPanel.TabIndex = 1;
+            // 
             // UserForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1418, 643);
+            this.Controls.Add(this.UserProductPanel);
             this.Controls.Add(this.UserAddCarPanel);
             this.Name = "UserForm";
             this.Text = "UserForm";
@@ -387,5 +397,6 @@
         private System.Windows.Forms.ComboBox ColorComboBox;
         private System.Windows.Forms.ComboBox BanTypeComboBox;
         private System.Windows.Forms.Button ADDbutton;
+        private System.Windows.Forms.Panel UserProductPanel;
     }
 }

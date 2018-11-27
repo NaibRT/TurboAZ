@@ -24,6 +24,7 @@ namespace TurboAZ
             if (newUser!=null)
             {
                 UserForm newUserForm = new UserForm();
+                CustomSession.CurrentUser = newUser;
                 newUserForm.ShowDialog();
             }
             else

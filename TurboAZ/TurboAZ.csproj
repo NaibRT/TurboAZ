@@ -55,6 +55,7 @@
     <Compile Include="Model\CarMarka.cs" />
     <Compile Include="Model\CarModel.cs" />
     <Compile Include="Model\DB.cs" />
+    <Compile Include="Model\CustomSession.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
